@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+figure {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 0 auto;
+  background-color: thistle;
+  padding: 1rem;
+}
+figcaption {
+  padding: .5rem;
+  background-color: whitesmoke;
+  margin-top: .4rem;
+  border-radius: 1rem;
+}
+h3 {
+  padding:.2rem;
+}
+img {
+  border-radius: 1rem;
+}
+button {
+  display: block;
+  margin: 1rem auto;
+  padding: .3rem;
+  cursor: pointer;
+  background-color: thistle;
+  border-radius: .2rem;
+}
+button:hover {
+  font-size: 1rem;
+}
