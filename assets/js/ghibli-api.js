@@ -16,8 +16,9 @@ fetch('https://ghibliapi.herokuapp.com/films/')
     let film = Math.floor(Math.random() * 21)
     movie.innerHTML = `
     <figure>
-    <img src="${data[film].image}" alt="${data[film].title}" weight="300" height="450">
+    <a href="${data[film].movie_banner}"><img src="${data[film].image}" alt="${data[film].title}" weight="300" height="450"></a>
     <h3>${data[film].title}</h3>
+    <h4>Released on: ${data[film].release_date}</h4>
     <figcaption>${data[film].description}</figcaption>
     </figure>
     ` }
