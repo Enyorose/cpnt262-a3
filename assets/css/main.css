@@ -22,8 +22,8 @@ figcaption {
   margin-top: .4rem;
   border-radius: 1rem;
 }
-h3 {
-  padding:.2rem;
+h3, button {
+  padding: .3rem;
 }
 img {
   border-radius: 1rem;
@@ -31,7 +31,6 @@ img {
 button {
   display: block;
   margin: 1rem auto;
-  padding: .3rem;
   cursor: pointer;
   background-color: thistle;
   border-radius: .2rem;
